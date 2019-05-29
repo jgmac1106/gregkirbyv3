@@ -1,0 +1,24 @@
+Title: test sixteen
+
+----
+
+Text: when I then go and manually add it in my text editor it works.
+test(link: https://jgregorymcverry.com text:  link)
+
+----
+
+Date: 2019-05-28 18:00
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 
