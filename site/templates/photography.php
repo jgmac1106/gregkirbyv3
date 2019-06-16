@@ -1,8 +1,8 @@
 <?php snippet('header') ?>
 
 <main>
-  <header class="intro">
-    <h1><?= $page->title() ?></h1>
+  <header class="h-feed intro">
+    <h1 class="p-name"><?= $page->title() ?></h1>
   </header>
 
   <ul class="albums"<?= attr(['data-even' => $page->children()->listed()->isEven()], ' ') ?>>
