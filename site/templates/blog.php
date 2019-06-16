@@ -1,25 +1,27 @@
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
-<main class="blog" role="main">
+<section class="content blog h-feed">
 
-  <h1 class="h-feed"><?= $page->title()->html() ?></h1>
+  <h1><?= $page->title()->html() ?></h1>
   <?= $page->text()->kirbytext() ?>
 
   <?php foreach($page->children()->listed()->flip() as $article): ?>
 
   <article class="h-entry">
     <h1 class="p-name"><?= $article->title()->html() ?></h1>
-    <?php if($author = $page->author()->toUser()): ?>
-       <div class="p-author h-card"><?= $author->name() ?>
-       	<figure>
-          <img class="u-photo" src="<?= $avatar->url() ?>">
-        </figure>
-       </div>
-          <?php endif ?>
-      <time class="dt-published"><?= $page->date()->toDate('d.m.Y') ?></time>
     <p class="p-summary"><?= $article->text()->excerpt(300) ?></p>
-    <a href="<?= $article->url() ?>" rel="canonical">Read more…</a>
+    <a href="<?= $article->url() ?>">Read more…</a>
+ <aside class="h-card">
+      <?php if($author = $page->author()->toUser()): ?>
+  <h2 class="p-name"><?= $author->name() ?></h2>
+  <?php if($avatar = $author->avatar()): ?>
+    <figure>
+      <img class="u-photo" src="<?= $avatar->url() ?>">
+    </figure>
+  <?php endif ?>
+<?php endif ?>
+</aside>
   </article>
 
   <?php endforeach ?>
