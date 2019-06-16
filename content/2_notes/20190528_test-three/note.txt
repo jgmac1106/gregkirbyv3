@@ -2,8 +2,7 @@ Title: test three
 
 ----
 
-Text: Do you put the html in plain text <a href="https://jgregorymcverry.com">Greg McVerry</a>
-
+Text: Do you put the html in plain text
 ----
 
 Date: 2019-05-28 18:00
