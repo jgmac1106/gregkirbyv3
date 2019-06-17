@@ -41,3 +41,5 @@ columns:
             image:
               cover: true
             help: Place the {{ gallery }} tag anywhere in your text to add the selected gallery
+      pings:
+        type: pings
