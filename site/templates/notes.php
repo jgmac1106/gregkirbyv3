@@ -7,16 +7,17 @@
 
   <div class="h-feed notes">
     <?php foreach ($page->children()->listed()->sortBy('date', 'desc') as $note): ?>
-    <article class=" h-entry note">
-      <header class="note-header">
-        <a href="<?= $note->url() ?>">
-          <time class="dt-published"><?= $note->date()->toDate('Y F d') ?></time>
-        </a>
-      </header>
-       <div class="p-content note-text text">
-      <?= $page->text()->kt() ?>
-    </div>
-    </article>
+    
+      <article class=" h-entry note">
+        <header class="note-header">
+         
+          <a href="<?= $note->url() ?>">
+           <time class="dt-published"><?= $note->date()->toDate('Y F d') ?></time>
+          </a>
+        </header>
+         <?= $note->text()->kt() ?>
+      </article>
+  
     <?php endforeach ?>
   </div>
 
