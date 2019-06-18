@@ -29,9 +29,8 @@
           <a href="<?= $image->link()->or($image->url()) ?>">
             <?= $image->crop(800, 1000) ?>
           </a>
-          <figcaption>
-            Published on <time class="dt-published note-date"><?= $page->date()->toDate('Y F d') ?></time> by <?php if($author = $page->author()->toUser()): ?></figcaption>
         </figure>
+         <a class="u-author" href="/"></a>
       </li>
       <?php endforeach ?>
     </ul>
