@@ -1,0 +1,27 @@
+Title: KirbyNote2
+
+----
+
+Text: 
+
+Like right now I would like to add "u-in-reply-to" to this note to link it to the previous note. guess I could use tags for now, still I wish the panel allowed HTML editing. 
+
+Still think I will be sending replies so much I should make the interaction a snippet. Check this laterhttps://forum.getkirby.com/t/any-way-to-add-a-css-class-when-calling-a-snippet/5453/2
+
+----
+
+Date: 2019-06-17 18:35
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: KirbyJourney
+
+----
+
+Gallery: 

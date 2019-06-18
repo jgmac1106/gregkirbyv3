@@ -26,7 +26,7 @@
   <div class="item2">
     <div class="h-card">
     <img class="u-photo" style="border-radius:50%" src="https://0.academia-photos.com/275850/62912/68932/s200_j._gregory.mcverry.jpg" alt=""><br>
-  <a class="p-name u-url" href="http://jgregorymcverry.com" rel="me">Greg McVerry</a><br>
+  <a class="u-url u-uid" href="http://jgregorymcverry.com" rel="me"><span class="p-name">Greg McVerry</span></a><br>
   <a class="u-email" href="mailto:jgregmcverry@gmail.com">Email</a> <br>
   
   <span class="p-locality">East Haddam, CT</span>

@@ -1,0 +1,4 @@
+Title: This is my first blog post
+----
+Text: This is a very insightful blog about things I know.
+----

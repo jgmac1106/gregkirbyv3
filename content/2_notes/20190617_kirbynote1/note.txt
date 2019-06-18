@@ -1,0 +1,29 @@
+Title: kirbynote1
+
+----
+
+Text: 
+
+Decided to take all my drafts to Kirby and describe what I am doing as well. Setting up microformats in the photography template. Need to figure out how to add u-featured to the album covers but that involves figuring out how to play a bit more with if statements.
+
+Only drawback so far has been markdown vs html. Markdown being better is opinion and not fact and so far Kirby is a pretty opinionated CMS. I would like to use html. The flexibility you lose just for the ability to not include a closing tag isn't worth it.
+
+Again opinion not fact.
+
+----
+
+Date: 2019-06-17 18:30
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

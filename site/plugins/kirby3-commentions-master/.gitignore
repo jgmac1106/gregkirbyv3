@@ -1,0 +1,10 @@
+# OS files
+.DS_Store
+
+# Dev notes
+devnotes.txt
+debug.txt
+
+# temp stuff
+*.bak
+

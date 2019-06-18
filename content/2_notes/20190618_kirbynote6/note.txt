@@ -1,0 +1,23 @@
+Title: KirbyNote6
+
+----
+
+Text: Got the time and date showing in my notes, but my timezone is off by four hours. Gonna need to go set that somewherere
+
+----
+
+Date: 2019-06-18 09:40
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

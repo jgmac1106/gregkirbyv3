@@ -1,0 +1,23 @@
+Title: KirbyNote5
+
+----
+
+Text: I need to try and display the time in my notes.
+
+----
+
+Date: 2019-06-18 09:20
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

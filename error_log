@@ -1,0 +1,10 @@
+[29-May-2019 19:00:02 UTC] PHP Fatal error:  Uncaught Kirby\Exception\LogicException: Cannot write to session "1559163602.978fe43be6a60fda99c4", because it is not locked in /home/jgregory/testkirby.jgregorymcverry.com/kirby/src/Session/FileSessionStore.php:266
+Stack trace:
+#0 /home/jgregory/testkirby.jgregorymcverry.com/kirby/src/Session/Session.php(374): Kirby\Session\FileSessionStore->set(1559163602, '978fe43be6a60fd...', 'b18b1cf27f79f84...')
+#1 [internal function]: Kirby\Session\Session->commit()
+#2 {main}
+  thrown in /home/jgregory/testkirby.jgregorymcverry.com/kirby/src/Session/FileSessionStore.php on line 266
+[18-Jun-2019 09:54:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jgregory/testkirby.jgregorymcverry.com/index.php on line 6
+[18-Jun-2019 09:54:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jgregory/testkirby.jgregorymcverry.com/index.php on line 6
+[18-Jun-2019 09:54:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jgregory/testkirby.jgregorymcverry.com/index.php on line 6
+[18-Jun-2019 09:54:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/jgregory/testkirby.jgregorymcverry.com/index.php on line 6

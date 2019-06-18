@@ -1,0 +1,23 @@
+Title: KirbyNote4
+
+----
+
+Text: Well I finished off getting my notes set last night and then spent some time learning about authorship. Also picked up some understanding on the difference between a parser and a consumer. I always kind of lumped those together.
+
+----
+
+Date: 2019-06-18 09:10
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

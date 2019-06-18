@@ -1,0 +1,9 @@
+sidebar:
+  meta:
+    type: fields
+    fields:
+      ...
+      author:
+        type: users
+        multiple: false
+      ...

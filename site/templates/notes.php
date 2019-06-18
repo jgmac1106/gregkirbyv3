@@ -1,8 +1,9 @@
 <?php snippet('header') ?>
 
-<main>
+<main class="h-feed">
   <header class="intro">
-    <h1><?= $page->title() ?></h1>
+    <h1 class="p-name"><?= $page->title() ?></h1>
+    <a class="u-author" href="/"></a>
   </header>
 
   <div class="h-feed notes">
@@ -12,8 +13,9 @@
         <header class="note-header">
          
           <a href="<?= $note->url() ?>">
-           <time class="dt-published"><?= $note->date()->toDate('Y F d') ?></time>
+           <time class="dt-published"><?= $note->date()->toDate('Y F d h:i a')?></time>
           </a>
+          <a class="u-author" href="/"></a>
         </header>
          <?= $note->text()->kt() ?>
       </article>

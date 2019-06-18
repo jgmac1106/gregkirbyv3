@@ -1,0 +1,79 @@
+/* the feedback text */
+
+.commentions-feedback {
+	margin-top:4em;
+}
+.commentions-feedback p {
+	padding:1em;
+}
+.commentions-feedback p.alert {
+	color:#ff0000;
+	background-color:#FFD8D8;
+}
+.commentions-feedback p.success {
+	color:#0D6F00;
+	background-color:#D2FFCC;
+}
+
+
+/* the form */
+
+.commentions-form form {
+	margin-top:4em;
+}
+.commentions-form form > div {
+	margin:2em 0;
+}
+.commentions-form-honeypot {
+	position:absolute; left:-9999px;
+}
+
+.commentions-form label,
+.commentions-form input,
+.commentions-form textarea {
+	display:block;
+	width:100%;
+}
+.commentions-form input,
+.commentions-form textarea {
+	background:white;
+	border:2px solid black;
+	padding:.5em;
+	font-size:100%;
+}
+.commentions-form input[type="submit"] {
+	background:black;
+	color:white;
+}
+
+
+/* the list of comments */
+
+.commentions-list {
+	margin-top:4em;
+}
+.commentions-list h3 {
+	margin-bottom:2em;
+}
+.commentions-list > ul {
+	padding:0;
+	list-style:none;
+}
+.commentions-list > ul > li {
+	margin-bottom:2em;
+}
+.commentions-list > ul.commentions-list-reactions {
+	display:flex;
+	flex-wrap: wrap;
+}
+.commentions-list > ul.commentions-list-reactions > li {
+	flex-basis:200px;
+}
+.commentions-list h4 {
+	font-weight:normal;
+	margin-bottom:0;
+}
+p.commentions-list-date {
+	font-size:80%;
+	margin-top:0;
+}
