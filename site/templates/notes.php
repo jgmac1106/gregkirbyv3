@@ -6,8 +6,24 @@
     <a class="u-author" href="/"></a>
   </header>
 
-  <div class="h-feed notes">
-    <?php foreach ($page->children()->listed()->sortBy('date', 'desc') as $note): ?>
+  <div class="notes">
+    <?php if ($notes->pagination()->hasPages()): ?>
+<nav class="pagination">
+
+  <?php if ($notes->pagination()->hasNextPage()): ?>
+  <a class="next" href="<?= $notes->pagination()->nextPageURL() ?>">
+    ‹ older posts
+  </a>
+  <?php endif ?>
+
+  <?php if ($notes->pagination()->hasPrevPage()): ?>
+  <a class="prev" href="<?= $notes->pagination()->prevPageURL() ?>">
+    newer posts ›
+  </a>
+  <?php endif ?>
+
+</nav>
+<?php endif ?>
     
       <article class=" h-entry note">
         <header class="note-header">
@@ -20,7 +36,6 @@
          <?= $note->text()->kt() ?>
       </article>
   
-    <?php endforeach ?>
   </div>
 
 </main>
