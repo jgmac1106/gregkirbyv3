@@ -1,0 +1,22 @@
+Title: KirbyNote6
+
+----
+
+Text: Lets's see if I can get webmentions working <a href="quickthoughts.jgregorymcverry.com">to me</a> and a <a class="u-in-reply-to" href="https://webmention.rocks/test/1">reply</a>
+----
+
+Date: 2019-06-18 07:30
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

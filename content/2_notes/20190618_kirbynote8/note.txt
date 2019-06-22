@@ -1,0 +1,23 @@
+Title: kirbynote8
+
+----
+
+Text: test of (link: https://webmention.rocks/test/1 text: webmentions)
+
+----
+
+Date: 2019-06-18 11:35
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 

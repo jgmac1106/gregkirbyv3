@@ -1,0 +1,23 @@
+Title: kirbynote9
+
+----
+
+Text: Having no luck with the (link: https://github.com/sebastiangreger/kirby3-sendmentions text: sendmention plugin)
+
+----
+
+Date: 2019-06-18 11:40
+
+----
+
+Author: 
+
+- jgregmcverry@gmail.com
+
+----
+
+Tags: 
+
+----
+
+Gallery: 
