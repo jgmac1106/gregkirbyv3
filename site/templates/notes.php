@@ -7,23 +7,8 @@
   </header>
 
   <div class="notes">
-    <?php if ($notes->pagination()->hasPages()): ?>
-<nav class="pagination">
+    <?php foreach($notes1 = $page->children()->listed()->flip()->paginate(10) as $note): ?>
 
-  <?php if ($notes->pagination()->hasNextPage()): ?>
-  <a class="next" href="<?= $notes->pagination()->nextPageURL() ?>">
-    ‹ older posts
-  </a>
-  <?php endif ?>
-
-  <?php if ($notes->pagination()->hasPrevPage()): ?>
-  <a class="prev" href="<?= $notes->pagination()->prevPageURL() ?>">
-    newer posts ›
-  </a>
-  <?php endif ?>
-
-</nav>
-<?php endif ?>
     
       <article class=" h-entry note">
         <header class="note-header">
@@ -36,6 +21,24 @@
          <?= $note->text()->kt() ?>
       </article>
   
+    <?php endforeach ?>
+    <?php if ($notes1->pagination()->hasPages()): ?>
+<nav class="pagination">
+
+  <?php if ($notes1->pagination()->hasNextPage()): ?>
+  <a rel="next" href="<?= $notes1->pagination()->nextPageURL() ?>">
+    ‹ older posts
+  </a>
+  <?php endif ?>
+
+  <?php if ($notes1->pagination()->hasPrevPage()): ?>
+  <a rel="prev" href="<?= $notes1->pagination()->prevPageURL() ?>">
+    newer posts ›
+  </a>
+  <?php endif ?>
+
+</nav>
+<?php endif ?>
   </div>
 
 </main>

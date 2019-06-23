@@ -33,8 +33,4 @@ columns:
             default: now
           author:
             type: users
-          tags:
-            type: tags
-    sections:
-      pings:
-        type: pings
+          tags: true

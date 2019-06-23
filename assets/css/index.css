@@ -1501,8 +1501,7 @@ margin-bottome: 3em;
   font-size: 2.25em;
   text-align:center;
   margin-bottom:.5em;
-  grid-column: 3 / 7;
-  grid-row: 1;
+  
 }   
 
 .longreads article h2 {
@@ -1510,23 +1509,35 @@ margin-bottome: 3em;
   font-size: 1.75em;
   text-align:center;
   margin-bottom:.3em;
-  grid-column: 3 / 7;
-  grid-row: 1;
+  
 } 
 .longreads article h3 {
   color: black;
   font-size: 1.5em;
   margin-bottom:.3em;
-  grid-column: 3 / 7;
-  grid-row: 1;
-}   
+ 
+}
 
-.longreads article .pubinfo {
-  color: grey;
+.longreads article header  {
   font-size:0.75em;
-  grid-column: 2;
+  grid-column: 3/7;
+  grid-row: 2; 
+  background-color:#EFEFEF;
+  color: black;
+}
+.longreads article .pubInfo  {
+  font-size:0.75em;
+  grid-column: 5/7;
+  grid-row: 3; 
+  background-color:#EFEFEF;
+}
+.bioPhoto {
+  max-width:50px;
+  border-radius:50%;
+  grid-column: 4;
   grid-row: 2;
 }
+
 .longreads article .anchors {
   color: grey;
   font-size:1em;
@@ -1539,9 +1550,17 @@ margin-bottome: 3em;
   grid-row: 4;
   
 }
-.longreads article .pubinfo .summary {
+.longreads article footer {
+  font-size: 1.3em;
+  grid-column: 2/8;
+  grid-row: 5;
+   background-color:#EFEFEF;
+  
+}
+.longreads article .summary {
   display: none;
   margin:3em;
+}
 }
 
 .longreads article p {
@@ -1562,7 +1581,9 @@ margin-bottome: 3em;
   width:85%;
 
 }
- 
+ .feedBio {
+  display: none;
+ }
 .myFeeds li {
   text-decoration: none;
   font-size: 0.75em;

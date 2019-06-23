@@ -3,29 +3,29 @@
 
 <main class="blog h-feed" role="main">
 
-  <h1 class="p-name"><?= $page->title()->html() ?></h1>
-   <div class="p-author h-card">
-      <?php if($author = $page->author()->toUser()): ?>
-  <h2 class="p-name"><?= $author->name() ?></h2>
-  <?php if($avatar = $author->avatar()): ?>
-    <figure>
-      <img class="u-photo" src="<?= $avatar->url() ?>">
-    </figure>
-  <?php endif ?>
-<?php endif ?>
+  <h2 class="p-name"><?= $page->title()->html() ?></h2>
+   <div class="feedBio h-card">
+      <a class="u-author" href="https://jgregorymcverry.com">Greg McVerry</a>
+      <img class="u-photo" src="http://testkirby.jgregorymcverry.com/media/users/7YUi7iA5/1003058223-1560729552/profile.jpg">
    </div>
   <?= $page->text()->kirbytext() ?>
-
+<section class="card-container">
   <?php foreach($page->children()->listed()->flip() as $article): ?>
 
-  <article class="h-entry">
-    <h1 class="p-name"><?= $article->title()->html() ?></h1>
-    <span class="p-summary"><?= $article->intro()->kirbytext() ?></span>
+  <article class="h-entry card">
+    <header class="card-title">
+    <h3 class="p-name"><?= $article->title()->html() ?></h3>
+    <div class=" h-card authorInfo">
+      <a class="u-author" href="https://jgregorymcverry.com"><span class="p-name">Greg McVerry</a>
+      <img
+    </div>
+  </header>
+    <span class="p-summary card-description"><?= $article->intro()->kirbytext() ?></span>
     <a href="<?= $article->url() ?>">Read more…</a>
   </article>
 
   <?php endforeach ?>
-
+</section>
 </main>
 
 <?php snippet('footer') ?>
