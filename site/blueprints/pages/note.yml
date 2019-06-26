@@ -32,6 +32,16 @@ columns:
           author:
             type: users
           tags: true
+          link:
+            label: URL
+            type: url
+          postype:
+            label: Type
+            type: select 
+            options:
+              reply
+              bookmark
+              following
           gallery:
             type: pages
             query: site.find("photography").children

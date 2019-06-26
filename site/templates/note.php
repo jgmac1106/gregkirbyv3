@@ -8,6 +8,8 @@
       <p class="note-tags tags"><?= $page->tags() ?></p>
       <?php endif ?>
       <a class="u-author" href="/"></a>
+      <?php if ($page->link()->isNotEmpty()) : ?>
+      <a class="<?= $page->postype()->kt() ?>" href="<?= $link()->text()->kt() ?>"><?= $page->postype()->kt() ?></a>
     </header>
 
   <div class="p-content note-text text">
