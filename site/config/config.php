@@ -8,7 +8,7 @@ return [
   ]
 ];
 return [
-    'postytpe' => [
+    'posttype' => [
         'reply'       => 'u-in-reply-to',
         'bookmark' => 'u-bookmark-of',
         'following'  => 'u-follow-of',
