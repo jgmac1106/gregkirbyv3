@@ -9,7 +9,8 @@
       <?php endif ?>
       <a class="u-author" href="/"></a>
       <?php if ($page->link()->isNotEmpty()) : ?>
-      <a class="<?= $page->postype()->kt() ?>" href="<?= $link()->text()->kt() ?>"><?= $page->postype()->kt() ?></a>
+      <a class="<?= $page->posttype() ?>" href="<?= $page()->link() ?>"><?= $page->link()?></a>
+       <?php endif ?>
     </header>
 
   <div class="p-content note-text text">
