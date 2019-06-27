@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-       <a href="index.html">
+       <a href="/">
    <div class="leading">
      <h1>
        INTERTEXTrEVOLUTION
