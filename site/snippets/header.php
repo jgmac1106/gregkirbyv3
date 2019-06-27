@@ -35,10 +35,10 @@
     <a href="/about" >About</a>
     </div>
     <div class="Navbar__Link">
-    <a href="/articles.html" >Articles</a>
+    <a href="/blog" >Articles</a>
     </div>
         <div class="Navbar__Link">
-    <a href="https://quickthoughts.jgregorymcverry.com.html" >Blog</a>
+    <a href="/notes" >Notes</a>
     </div>
      
       <div class="Navbar__Link">
@@ -51,7 +51,7 @@
     <a href="https://consulting.jgregorymcverry.com/" class="navLinks">Consulting</a>
     </div>
         <div class="Navbar__Link">
-    <a href="/2toPonder.html" class="navLinks">Podcasts</a>
+    <a href="2toPonder.html" class="navLinks">Podcasts</a>
     </div>
         <div class="Navbar__Link">
     <a href="/following" class="navLinks">Following</a>
