@@ -5,7 +5,7 @@
     <h2 class="p-name"><?= $page->title() ?></h2>
   </header>
 
-  <div class="layout">
+  <div class="layout reading">
 
     <aside>
       <section>
