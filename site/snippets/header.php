@@ -24,7 +24,7 @@
      </a>  
       <div class="Navbar">
           
-          <a href="/index.html"><i class="fas fa-home-heart"></i></a>
+          <a href="/index"><i class="fas fa-home-heart"></i></a>
           <div class="Navbar__Link Navbar__Link-toggle">
       <i class="fas fa-bars"></i>
     </div>
