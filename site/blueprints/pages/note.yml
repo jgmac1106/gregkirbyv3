@@ -35,13 +35,13 @@ columns:
           link:
             label: URL
             type: url
-          postype:
+          posttype:
             label: Type
             type: select 
             options:
-              reply
-              bookmark
-              following
+              u-in-reply-to: reply
+              u-bookmark-of: bookmark
+              u-follow-of: following
           gallery:
             type: pages
             query: site.find("photography").children

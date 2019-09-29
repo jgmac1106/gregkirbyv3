@@ -12,7 +12,7 @@
   </head>
   <body>
     <header>
-       <a href="index.html">
+       <a href="/">
    <div class="leading">
      <h1>
        INTERTEXTrEVOLUTION
@@ -24,7 +24,7 @@
      </a>  
       <div class="Navbar">
           
-          <a href="/index.html"><i class="fas fa-home-heart"></i></a>
+          <a href="/"><i class="fas fa-home-heart"></i></a>
           <div class="Navbar__Link Navbar__Link-toggle">
       <i class="fas fa-bars"></i>
     </div>
@@ -32,35 +32,35 @@
   <nav class="Navbar__Items">
     <div class="Navbar__Link">
     
-    <a href="/aboutme.html" >About</a>
+    <a href="/about" >About</a>
     </div>
     <div class="Navbar__Link">
-    <a href="/articles.html" >Articles</a>
+    <a href="/blog" >Articles</a>
     </div>
         <div class="Navbar__Link">
-    <a href="https://quickthoughts.jgregorymcverry.com.html" >Blog</a>
+    <a href="/notes" >Notes</a>
     </div>
      
       <div class="Navbar__Link">
-    <a href="/contact.html">Contact</a>
+    <a href="/contact">Contact</a>
     </div>
      <div class="Navbar__Link">
-    <a href="/resume.html" class="navLinks">Vita</a>
+    <a href="/resume" class="navLinks">Vita</a>
     </div>
       <div class="Navbar__Link">
     <a href="https://consulting.jgregorymcverry.com/" class="navLinks">Consulting</a>
     </div>
         <div class="Navbar__Link">
-    <a href="/2toPonder.html" class="navLinks">Podcasts</a>
+    <a href="2toPonder.html" class="navLinks">Podcasts</a>
     </div>
         <div class="Navbar__Link">
-    <a href="/following.html" class="navLinks">Following</a>
+    <a href="/following" class="navLinks">Following</a>
     </div>
             <div class="Navbar__Link">
-    <a href="/annotations.html" class="navLinks">Annotations</a>
+    <a href="/annotations" class="navLinks">Annotations</a>
     </div>
             <div class="Navbar__Link">
-    <a href="/imagecredits.html" class="navLinks">Img Credits</a>
+    <a href="/imagecredits" class="navLinks">Img Credits</a>
     </div>
   </nav>
     </header>

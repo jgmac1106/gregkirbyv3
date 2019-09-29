@@ -14,7 +14,7 @@
     </p>
     <h2> IndieWebRings</h2>
  
-    <a href="https://xn--sr8hvo.ws/%F0%9F%98%88/previous">←</a>
+    <a style="color:red" href="https://xn--sr8hvo.ws/%F0%9F%98%88/previous">←</a>
   An IndieWeb Webring 🕸💍
     <a href="https://xn--sr8hvo.ws/%F0%9F%98%88/next">→</a>
      <div style="text-align: center" class="microcastclub">

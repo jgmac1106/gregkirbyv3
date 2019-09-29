@@ -2,21 +2,7 @@
   --content-width: 65rem;
 }
 
-*,
-*:after,
-*:before{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-    background-color: #efefef;
-  font-size:16px;
-}
-* {
-    box-sizing: border-box;
-}
 /* Flex styles -------------------------------------------------*/
 
 
@@ -1590,63 +1576,28 @@ margin-bottome: 3em;
 }
 .card-container {
     display: grid;
-    padding: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
-  z-index: 1;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 20px;
 }
 .card {
+    grid-row: auto / span 3; /* use three rows of the parent grid */
     display: grid;
+    grid-template-rows: subgrid;
+    grid-gap: 0; /* set the gap to 0 on the subgrid so our cards don’t have gaps */
+    margin-bottom:20px;   
 }
-.card .button {
-    align-self: end;
+.card .authorInfo {
+  display: none;
 }
-
-
-/* Simple Card styles for prettying */
-
-
-.card {
-    box-shadow: 0px 1px 5px #555;
-    background-color: white;
-  
-}
-.card article {
-  all: none;
-}
-.card__title {
-    font-size: 1.25em;
-    padding: .5rem;
-  z-index: 1;
-  
-}
-.card__description {
-    padding: .5rem;
-    line-height: 1.6em;
-}
-.card .button {
-    display: block;
-    background-color: #6d796d;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    transition: .3s ease-out;
-    &:hover {
-        background-color: darken(#6d796d, 40%);
-    }
-}
-.card img {
-    width: 80%;
-  height:250px;
-  margin-left:10%;
-  margin-right:10%;
-}
-.authorInfo {
-  display: none
+.card .hader {
+  font-size: 1.5em;
+  background-color: #6B6B6B;
 }
 
-
+.card .futer {
+ background-color: #6B6B6B; 
+}
 .item4 details {
     border: 1px solid #aaa;
     border-radius: 4px;

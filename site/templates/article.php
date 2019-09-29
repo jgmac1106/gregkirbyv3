@@ -17,7 +17,7 @@
    </div>
     <p>Published on  <time class="dt-published article-date"><?= $page->date()->toDate('Y F d h:i a') ?></time>
 </p>
-<span class="summary p-summary"><?= $page->intro()->kirbytext() ?></span>
+<span class="summary p-summary"><?= $page->intro() ?></span>
 </header>
     <div class="copy e-content">
     <?= $page->text()->kirbytext() ?>

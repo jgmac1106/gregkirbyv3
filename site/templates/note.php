@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-
+<?php $postOptions = option('posttype'); ?>
 <main>
   <article class="h-entry note">
     <header class="note-header intro">
@@ -10,6 +10,7 @@
       <a class="u-author" href="/"></a>
       <?php if ($page->link()->isNotEmpty()) : ?>
 <a class="<?= $page->posttype() ?>" href="<?= $page->link() ?>"><?= $page->link()?></a>
+
 <?php endif ?>
     </header>
 
