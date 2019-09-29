@@ -1,30 +1,30 @@
 <?php snippet('header') ?>
 
-<main>
+<main class="h-card">
   <header class="intro">
-    <h1><?= $page->title() ?></h1>
+    <h2 class="p-name"><?= $page->title() ?></h2>
   </header>
 
-  <div class="layout">
+  <div class="layout reading">
 
     <aside>
       <section>
         <h2>Address</h2>
-        <div class="text">
+        <div class="text p-adr">
           <?= $page->address()->kt() ?>
         </div>
       </section>
 
       <section>
         <h2>Email</h2>
-        <div class="text">
+        <div class="u-email text">
           <?= html::email($page->email()) ?>
         </div>
       </section>
 
       <section>
         <h2>Phone</h2>
-        <div class="text">
+        <div class="text p-phone">
           <?= html::tel($page->phone()) ?>
         </div>
       </section>
@@ -34,7 +34,7 @@
         <div class="text">
           <ul>
             <?php foreach ($page->social()->toStructure() as $social): ?>
-            <li><?= html::a($social->url(), $social->platform()) ?></li>
+            <li class="u-url"><?= html::a($social->url(), $social->platform()) ?></li>
             <?php endforeach ?>
           </ul>
         </div>

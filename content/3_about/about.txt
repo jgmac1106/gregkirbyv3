@@ -1,25 +1,35 @@
 Text:
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way. When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.
+<p> 
+  <a class="u-url" href="https://jgregorymcverry.com" rel="author">Greg McVerry</a> is an <span class="p-job-title">Associate Professor of Education</span> at <a class="p-org h-card" href="https://southernct.edu"> Southern Connecticut State University</a>. He received a <span class="p-category">doctorate in educational psychology</span> from <a class="p-org h-card" href="https://uconn.edu">University in Connecticut</a> as a <span class="p-category">Neag Fellow</span> serving  in the New Literacies Research Lab.Greg teaches and researches at the intersection of literacy and technology.</p>
+<p>
+     Dr. McVerry serves on the <span class="p-role">Board of Directors</span> of the <a class="h-card p-name" href="https://literacyeverday.org">Literacy Coalition of Greater New Haven</a>. He <del datetime="2018-07-17T12:38:11+00:00">is</del> was the <span class="p-role">e-editor</span> of the Literacy Research Association and member of the technology, communication, and literacy committee. Greg <del datetime="2018-07-17T12:07:07+00:00">is</del> was also a member of the media and digital literacies collaborative of NCTE. He <del datetime="2018-07-17T12:07:07+00:00">is</del> was also the <span class="p-role">new literacies section editor</span> for the <span class="h-card p-name">Connecticut Reading Association Journal</span>. He has published and presented dozens of articles and papers in national and international journals.</p>
+<p>
+Greg is involved in many school wide initiatives to improve literacy outcomes using technology. He is an active member of the <a class="p-org h-card" href="https://indieweb.org">IndieWeb</a> community. Dr. McVerry was recognized in 2016 by <a class="p-org h-card" href="http://mozilla.org/">Mozilla Foundation</a>, makers of Firfox, as one of 50 people protecting the Open Web. In 2006 Dr. McVerry was awarded the Connecticut Educator Computer Educator of the Year in 2006 for his work on Mythology and digital texts. He taught students to compare reading from print to pixel, start their own blogs, use threaded discussions, and think about website credibility. Basically Dr. McVerry taught fake news before it was a thing. In 2015 Dr. McVerry was selected for the Joan Finn Junior Scholar Research Fellowship. Greg built a class called #QuestionTheWeb and also worked with Mozilla to help create and test <a href="https://thimble.mozilla.org">Thimble.</a> </p>
+<p>
+  You can book Dr. McVerry for keynote talks, conference talks or your next professional development project.
+     </p>
+<p>
+  <a title="Vita" href="http://jgregorymcverry.com/about-me-2/vita/">Current Curriculum Vitae</a>
+     </p>
+<p>Greg is also a proud father of three boys, John, Ben, and Dan. He loves the outdoors, writing, and reading.
+     </p>
 
 ----
 
 Address:
 
-Mægazine Inc.
-Sesamestreet 1
-Gotham City
+16 Heritage Brook Dr
+East Haddam, CT 06423
 USA
 
 ----
 
-Email: mail@maegazine.com
+Email: jgregmcverry@gmail.com
 
 ----
 
-Phone: +49 1234 5678
+Phone: 203 982-8182
 
 ----
 
@@ -27,10 +37,16 @@ Social:
 
 -
   platform: Twitter
-  url: https://twitter.com/getkirby
+  url: https://twitter.com/jgmac1106
 -
   platform: Instagram
   url: https://instagram.com/getkirby
+-
+  platform: Micro Blog
+  url: https://jgmac1106.microblog.com
+ -
+  platform: Mastodon
+  url: https://mastodon.com/jgmac1106
 
 ----
 
@@ -43,4 +59,4 @@ USA
 
 ----
 
-Title: About us
+Title: J. Gregory McVerry
